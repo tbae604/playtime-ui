@@ -29,7 +29,7 @@ mongoose.connect(url, { useNewUrlParser: true }, function(error, db) {
     if (error) {
         console.log(`Cannot connect to mongoDB server: ${error}`);
     } else {
-        console.log(`Connected to ${url}`);
+        console.log(`Connected to mongoDB server.`);
     }
 });
 
